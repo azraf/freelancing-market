@@ -9,7 +9,8 @@ tmp-cache/views/*
 vendor
 node_modules
 test
-app/Config/*
+app/Config/Environment.php
+app/Config/Database.php
 composer.lock
 gulpfile.js
 .env
