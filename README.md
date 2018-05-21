@@ -8,7 +8,7 @@ Employer: Post project, Hire freelancer, Make Payments
 Employee: Submit proposal, Do work, Get Payments
 
 ## Current Development Status
-We have already made a project for building MicroJob website(http://wpfreelancing.com/). We are re-building that to make it work for general Freelancing Marketplace where Hourly and Fixed price Job will be available.
+We have already made a project for building MicroJob websites (https://wpfreelancing.com/). We are re-building that to make it work for general Freelancing Marketplace where Hourly and Fixed price Job will be available.
 
 #### Feature comparison than the MicroJob script:
  - Microjob Script build with concept to hire minimum 20 or more freelancers for a single job, where Freelancing Market will allow 1 or more people to hire.

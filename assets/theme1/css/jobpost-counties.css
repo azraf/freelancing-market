@@ -1,0 +1,80 @@
+.regionarea {
+    border: 1px solid #aaaaaa;
+    padding: 0 0 0 0;
+    overflow: hidden;
+    background: #dddddd;
+    margin: 0 0 20px 0;
+}
+.regionlist {
+    border-bottom: 1px solid #aaaaaa;
+    padding: 5px 10px 5px 10px;
+    overflow: hidden;
+}
+.internationalregion {
+    border-bottom: 1px solid #aaaaaa;
+    padding: 5px 10px 5px 10px;
+    background: #f9f9d7;
+    overflow: hidden;
+}
+.internationalregionleft {
+    width: 120px;
+    float: left;
+    padding: 45px 0 0 0;
+}
+.internationalregionright {
+    width: 340px;
+    float: right;
+    padding: 0 0 0 0;
+}
+.hide{
+display: none;
+}
+.inregionlist {
+    width: 85px;
+    float: left;
+    padding: 0 0 0 0;
+    overflow: hidden;
+    color: #cc3333;
+    font-size: 11px;
+}
+.internationalregionleft span {
+    float: left;
+    display: block;
+    padding: 2px 10px 0 0;
+}
+.inregionlistg {
+    color: #009900;
+}
+.inregionlist {
+    width: 85px;
+    float: left;
+    padding: 0 0 0 0;
+    overflow: hidden;
+    color: #cc3333;
+    font-size: 11px;
+}
+
+/*
+Category Part
+*/
+
+.campaigncategory {
+    padding: 0 0 15px 0;
+    overflow: hidden;
+}
+.campaigncategoryleft {
+    width: 52%;
+    float: left;
+    padding: 0 0 0 0;
+    overflow: hidden;
+}
+.campaigncategory select {
+    font-size: 12px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.campaigncategoryright {
+    width: 48%;
+    float: right;
+    padding: 0 0 0 0;
+    overflow: hidden;
+}

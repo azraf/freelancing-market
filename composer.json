@@ -1,0 +1,32 @@
+{
+  "name": "mws/joblancer",
+  "description": "Implementation of Database Queries with illuminate and Eloquent",
+  "type": "project",
+  "require": {
+    "illuminate/database": "5.5.*",
+    "illuminate/events": "^5.5",
+    "duncan3dc/blade": "^4.0",
+    "nesbot/carbon": "^1.22",
+    "laravelcollective/html": "^5.4.0",
+    "aura/session": "^2.1",
+    "ozdemir/datatables": "^1.6",
+    "rncryptor/rncryptor": "^4.0",
+    "spatie/menu": "^2.4",
+    "phpauth/phpauth": "^1.1",
+    "imagine/imagine": "^0.7.1",
+    "paypal/rest-api-sdk-php": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Libs\\": "app/Libraries/",
+      "Class\\": "app/Classes/",
+      "Controllers\\": "app/Controllers/",
+      "Models\\": "app/Models/"
+    },
+    "files":[
+      "app/Helper/Helper.php"
+      , "app/Helper/Menu.php"
+      , "app/Helper/BootHelper.php"
+    ]
+  }
+}

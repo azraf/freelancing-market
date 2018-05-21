@@ -1,0 +1,173 @@
+/* ==========================================================================
+   Panel Styles
+   ========================================================================== */
+.panel-image {
+    height: 400px;
+	border-radius: 4px 4px 0px 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	z-index: 0;
+}
+
+.panel-image-1 {
+    height: 400px;
+	border-radius: 4px 4px 0px 0px;
+	background: url('../img/panel/2.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	z-index: 0;
+}
+
+
+.panel .panel-heading{
+	background: transparent;
+	border-radius: 0px;
+	border-bottom: 0px;
+	padding: 20px 20px 7px 20px;
+	position: relative;
+	z-index: 3;
+}
+
+.top-right{
+	position: absolute !important;
+	top:1px;
+	right: 0;
+}
+
+.panel .panel-heading .panel-controls{
+	float: right;
+	margin-top: -3px;
+}
+
+.panel .panel-heading .panel-controls ul{
+	margin: 0;
+	padding: 0;
+}
+
+.panel .panel-heading .panel-controls ul li{
+	display: inline-block;
+	list-style: none;
+	line-height: 0;
+}
+
+ul>li, ol>li{
+	padding-left: 3px;
+	line-height: 24px;
+}
+
+.panel-heading a:not(.btn){
+	color: #2c2c2c !important;
+	opacity: .4;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.text-black {
+	color: #2c2c2c !important;
+}
+
+a, a:focus, a:hover, a:active {
+	outline: 0 !important;
+	text-decoration: none;
+}
+
+.portlet-icon-refresh-lg-master,
+.portlet-icon-refresh-lg-white{
+	width: 25px;
+	height: 25px;
+	color: #fff;
+	display: block;
+	-webkit-transition: opacity 0.3s ease;
+	transition: opacity 0.3s ease; 
+}
+
+.portlet-icon{
+	-moz-05x-font-smoothing: grayscale;
+	font-family: "pages-icon";
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1;
+	text-transform: none;
+}
+
+.panel .panel-heading+ .panel-body{
+	padding-top: 0;
+}
+
+
+.panel .panel-body{
+	padding: 20px;
+	height: 100%;
+	width: 100%;
+}
+
+.panel-body .pull-bottom{
+	padding: 0 49px 56px 42px;
+}
+
+.panel-body > * {
+	z-index: 1;
+}
+
+.pull-bottom{
+	position: absolute !important;
+	bottom: 0;
+}
+
+.bottom-left {
+	position: absolute !important;
+	bottom: 1px;
+	left: 0;
+}
+
+.font-motserrat{
+	font-family: "Motserrat" !important;
+}
+
+.fs-11{
+	font-size: 11px;
+}
+
+.label{
+	padding: 3px 9px;
+	font-size: 11px;
+	text-shadow: none;
+	font-weight: 600;
+	color: #626262;
+}
+
+br{
+	line-height: normal;
+	clear:both;
+}
+
+h2{
+	font-size: 29px;
+	line-height: 40px; 
+	color: #fff !important;
+}
+
+.text-white{
+	color: #fff;
+}
+
+.hint-text{
+	opacity: .7;
+}
+
+p{
+	display: block;
+	font-size: 14px;
+	font-weight: normal;
+	letter-spacing: 0.01cm;
+	line-height: 22px;
+	margin: 0px 0px 0px 0px;
+	font-style: normal;
+	white-space: normal;
+}
+

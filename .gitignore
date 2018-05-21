@@ -1,0 +1,16 @@
+cgi-bin
+.well-known
+.idea
+.idea/*
+./.idea
+tmp-cache/admin/views/*
+tmp-cache/views/*
+.settings
+vendor
+node_modules
+test
+app/Config/*
+composer.lock
+gulpfile.js
+.env
+*.log

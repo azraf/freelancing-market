@@ -1,0 +1,258 @@
+ /* UI - Sliders & Progress
+=================================================================== */
+.slider {
+  background: #e4e6eb;
+  border: none;
+  height: 20px;
+  -webkit-border-radius: 50em;
+  -moz-border-radius: 50em;
+  border-radius: 50em;
+  position: relative;
+  z-index: 10;
+  margin: 0px 18px !important;
+}
+.slider:after {
+  background: #e4e6eb;
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  padding: 0px 19px;
+  left: -19px;
+  -webkit-border-radius: 50em;
+  -moz-border-radius: 50em;
+  border-radius: 50em;
+  overflow: hidden;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.slider .ui-slider-range {
+  -webkit-border-radius: 50em;
+  -moz-border-radius: 50em;
+  border-radius: 50em;
+  position: absolute;
+  padding: 0px 19px 0px 19px;
+  margin: 0px -19px 0px -19px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.slider.small {
+  height: 12px;
+}
+.ui-slider-handle {
+  border: none !important;
+  -webkit-border-radius: 50em;
+  -moz-border-radius: 50em;
+  border-radius: 50em;
+  outline: none !important;
+}
+.ui-slider-horizontal .ui-slider-handle {
+  background: url("../img/handle.png") no-repeat center center scroll #ffffff !important;
+  background-position: 50% 50%;
+  background-size: 16px 16px !important;
+  width: 36px;
+  height: 18px;
+}
+.ui-slider-horizontal .ui-slider-handle {
+  top: 1px;
+  margin-left: -18px;
+}
+.ui-slider-horizontal.small .ui-slider-handle {
+  background: url("../img/handle.png") no-repeat center center scroll #ffffff !important;
+  background-position: 50% 50%;
+  background-size: 8px 8px !important;
+  width: 36px !important;
+  height: 10px !important;
+}
+.sliderVertical {
+  background: #e4e6eb;
+  border: none;
+  top: auto;
+  bottom: auto;
+  width: 20px !important;
+  -webkit-border-radius: 50em;
+  -moz-border-radius: 50em;
+  border-radius: 50em;
+  -webkit-box-shadow: inset 0px 5px 6px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0px 5px 6px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0px 5px 6px rgba(0, 0, 0, 0.05);
+  position: relative;
+  float: left;
+  height: 100px;
+  margin: 38px 20px 0px 20px;
+  width: 5px;
+}
+.sliderVertical:after {
+  background: #e4e6eb;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 38px 0px 0px 0px;
+  top: -38px;
+  -webkit-border-radius: 50em;
+  -moz-border-radius: 50em;
+  border-radius: 50em;
+  overflow: hidden;
+}
+.sliderVertical .ui-slider-range {
+  height: 100%;
+  width: 100%;
+  top: auto;
+  bottom: auto;
+  -webkit-border-radius: 50em;
+  -moz-border-radius: 50em;
+  border-radius: 50em;
+  padding-top: 38px;
+  margin-top: -38px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.sliderVertical .ui-slider-handle {
+  background: url("../img/handlev.png") no-repeat center center scroll #ffffff !important;
+  background-position: 50% 50%;
+  background-size: 16px 16px !important;
+  width: 18px;
+  height: 36px;
+  left: 50%;
+  margin: 0px 0px 1px -9px !important;
+}
+.sliderVertical .ui-slider-range-max {
+  top: 0;
+}
+.sliderVertical .ui-slider-range-min {
+  bottom: 0;
+}
+.sliderVertical.small {
+  width: 12px !important;
+  position: relative;
+  float: left;
+  height: 100px;
+  margin: 38px 20px 0px 20px;
+  width: 5px;
+}
+.sliderVertical.small .ui-slider-handle {
+  background: url("../img/handlev.png") no-repeat center center scroll #ffffff !important;
+  background-position: 50% 50%;
+  background-size: 8px 8px !important;
+  width: 10px;
+  height: 36px;
+  margin: 0px 0px 1px -5px !important;
+}
+.sliderBlue .ui-slider-range,
+.progressBlue .ui-progressbar-value {
+  background: #36a9e1;
+}
+.sliderGreen .ui-slider-range,
+.progressGreen .ui-progressbar-value {
+  background: #bdea74;
+}
+.sliderMint .ui-slider-range,
+.progressMint .ui-progressbar-value {
+  background: #1ab394 !important;
+}
+.sliderDarkGreen .ui-slider-range,
+.progressDarkGreen .ui-progressbar-value {
+  background: #78cd51;
+}
+.sliderPink .ui-slider-range,
+.progressPink .ui-progressbar-value {
+  background: #e84c8a;
+}
+.sliderOrange .ui-slider-range,
+.progressOrange .ui-progressbar-value {
+  background: #fa603d;
+}
+.sliderLightOrange .ui-slider-range,
+.progressLightOrange .ui-progressbar-value {
+  background: #fabb3d;
+}
+.sliderRed .ui-slider-range,
+.progressRed .ui-progressbar-value {
+  background: #ff5454;
+}
+.sliderYellow .ui-slider-range,
+.progressYellow .ui-progressbar-value {
+  background: #eae874;
+}
+.progress {
+  background: #e4e6eb;
+  border: none;
+  height: 14px;
+  -webkit-border-radius: 50em !important;
+  -moz-border-radius: 50em !important;
+  border-radius: 50em !important;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  position: relative;
+  margin-top: -2px;
+}
+.progress .ui-progressbar {
+  -webkit-border-radius: 50em !important;
+  -moz-border-radius: 50em !important;
+  border-radius: 50em !important;
+}
+.progress .ui-progressbar-value {
+  border: none;
+  height: 100%;
+  top: 1px;
+  position: absolute;
+  left: 1px;
+  -webkit-border-radius: 50em;
+  -moz-border-radius: 50em;
+  border-radius: 50em;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.progressBarValue span {
+  font-size: 12px;
+}
+.progressBarValue span.progressCustomValueVal {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0 5px;
+  color: #fa603d;
+}
+.progressSlim {
+  background: #e4e6eb;
+  border: none;
+  height: 10px;
+  -webkit-border-radius: 50em;
+  -moz-border-radius: 50em;
+  border-radius: 50em;
+  position: relative;
+  margin-top: -2px;
+}
+.progressSlim .ui-progressbar-value {
+  border-color: transparent;
+  height: 100%;
+  top: 0px;
+  position: absolute;
+  left: 0px;
+  -webkit-border-radius: 50em;
+  -moz-border-radius: 50em;
+  border-radius: 50em;
+}
+.tasks .progressSlim {
+  overflow: hidden;
+  border: none !important;
+  height: 8px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin-top: 0px;
+}
+.tasks .progressSlim .ui-progressbar-value {
+  overflow: hidden;
+  margin: 0px;
+  border: none !important;
+  -webkit-border-radius: 50em;
+  -moz-border-radius: 50em;
+  border-radius: 50em;
+} 
