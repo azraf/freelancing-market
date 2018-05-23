@@ -24,12 +24,12 @@ use Models\Database;
 new Database();
 
 $GLOBALS['config'] = array(
-    'mysql' => array(
-        'host' => DBHOST,
-        'username' => DBUSER,
-        'password' => DBPASS,
-        'db' => DBNAME
-    ),
+//    'mysql' => array(
+//        'host' => DBHOST,
+//        'username' => DBUSER,
+//        'password' => DBPASS,
+//        'db' => DBNAME
+//    ),
     'remember' => array(
         'cookie_name' => 'hash',
         'cookie_expiry' => 604800
@@ -38,12 +38,13 @@ $GLOBALS['config'] = array(
         'cookie_name' => 'lang',
         'session_name' => 'lang',
         'cookie_expiry' => 604800
-    ),
-    'session' => array(
-        'session_admin' => 'admin',
-        'session_name' => 'user',
-        'token_name' => 'token'
     )
+//  ,
+//    'session' => array(
+//        'session_admin' => 'admin',
+//        'session_name' => 'user',
+//        'token_name' => 'token'
+//    )
 );
 require_once ROOTAPPPATH . 'Helper/fn_lang_front.php';
 

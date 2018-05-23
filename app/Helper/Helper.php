@@ -9,7 +9,7 @@ function appNav()
 
 function cpNav()
 {
-    return ADMINPATH;
+    return SITE . '/' . ADMINKEY;
 }
 
 function startsWith($haystack, $needle)

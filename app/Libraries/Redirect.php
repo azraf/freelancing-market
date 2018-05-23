@@ -17,7 +17,6 @@ class Redirect
                         exit();
                         break;
                 }
-
             }
 
             header('Location: ' . $location);
@@ -39,7 +38,6 @@ class Redirect
                         exit();
                         break;
                 }
-
             } else {
                 $location = cpUrl($location);
             }
